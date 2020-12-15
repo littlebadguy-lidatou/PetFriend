@@ -33,8 +33,7 @@ Page({
   },
   getWeatherInfo: function (latitude, longitude){
     var _this = this;
-    var key = '6c20c85a70364408a77f1e6565b43149';//你自己的key
-    //需要在微信公众号的设置-开发设置中配置服务器域名
+    var key = '6c20c85a70364408a77f1e6565b43149';//key
     var url = 'https://free-api.heweather.com/s6/weather?key='+key+'&location=' + longitude + ',' + latitude;
     wx.request({
       url: url, 
