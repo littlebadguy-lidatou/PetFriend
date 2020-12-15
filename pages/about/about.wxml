@@ -1,0 +1,25 @@
+<view class="container">
+  <swiper indicator-dots='true' autoplay="true" interval="5000">
+    <swiper-item>
+      <view class="item-container">
+        <image src="../../image/lidatou.jpg"></image>
+        <text class="name">李静蕾</text>
+        <text class="haha">啥也不想干</text>
+      </view>
+    </swiper-item>
+
+
+    <swiper-item>
+      <view class="item-container">
+        <image src="../../image/wangchenyang.jpg"></image>
+        <text class="name">王晨阳</text>
+        <text class="haha">就是想睡觉
+        </text>
+      </view>
+    </swiper-item>
+  </swiper>
+
+  <text class="introduction">小程序灵感来自于
+  微博@比格犬受害者联盟</text>
+  <text class="introduction">愿每一个生物都能幸福</text>
+</view>
