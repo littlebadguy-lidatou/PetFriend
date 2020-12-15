@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class='page'  style="background-img:url('/images/note.jpg)">
+  <view class='nav'>
+    <view bindtap='click1' class='{{nav1}}'>
+      植物
+    </view>
+    <view bindtap='click2' class='{{nav2}}'>
+      动物
+    </view>
+    
+  </view>
+
+  <view class='body'>
+    <!-- 待办开始 -->
+    <view wx:if="{{condition1}}">
+      <view class='guide'>
+       给你的宠物添加信息吧
+      </view>
+      <view class='list1' wx:for="{{array}}" id='{{index}}' bindtap='short'>
+        {{item}}
+      </view>
+      <!-- 输入框增加 -->
+      
+    </view>
+    
+    <view class='area' wx:if="{{input}}">
+      <textarea bindconfirm='confirm'  placeholder='输入信息'></textarea>
+    </view>
+    <!-- 待办结尾-->
+    <!-- 已办开始 -->
+    <view wx:if="{{condition2}}" class='finish'>
+      <view class="list2" wx:for="{{array1}}">
+        {{item}}
+      </view>
+    </view>
+    <!-- 已办结尾 -->
+    
+  </view>
+  <view class='btn'>
+        <button bindtap="click" >增加</button>
+      </view>
+     
+    
+    
+</view>
+
+
+
+
+
+
+
+

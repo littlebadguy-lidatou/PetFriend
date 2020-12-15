@@ -1,0 +1,72 @@
+/**index.wxss**/
+.page {
+  margin: 0rpx 50rpx 50rpx 50rpx;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-size:55rpx;
+}
+
+.nav1 {
+  flex: 1;
+  background-color: rgba(239, 228, 248, 0.74);
+}
+
+.nav2 {
+  flex: 1;
+  background-color: #F0FFF0;
+}
+
+.body {
+  background-color: #5F9EA0;
+
+  
+}
+
+.guide {
+  font-size: 50rpx;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  border: 100px;
+}
+
+.list1 {
+  font-size: 50rpx;
+  border: 1rpx;
+  border-color: black;
+  border-style: solid;
+}
+
+.btn {
+  margin: 20px;
+  width: 80%;
+  background-color: blanchedalmond;
+  color: 	#5F9EA0;
+  border-radius: 200rpx;
+  background: white;
+}
+
+.area {
+  background-color:#AFEEEE;
+  font-size: 50rpx;
+  border:50px,solid,snow;
+  text-indent:20px;
+  text-align:left;
+}
+
+.list2 {
+  font-size: 50rpx;
+  border: 1rpx;
+  border-color: 	#40E0D0;
+  border-style: solid;
+  background-color: 	#40E0D0;
+}
+page{
+  background:white
+}
+.ps{
+  color: rgb(29, 97, 35)
+}
